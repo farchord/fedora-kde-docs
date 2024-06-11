@@ -1,0 +1,15 @@
+This is an example of a partial file. Unlike files in `pages/`, files in this directory are not built as standalone pages, but only if they are included in a file within `pages/`. This stops fragments of pages being built and discovered by search engines.
+
+A file in this directory can be included within any file in the `pages/` directory.
+
+Most common use cases for partials are:
+
+. Reusing attributes such as the current year or a release version throughout the entire module while being able to change it easily (such as changing "Fedora 33" to "Fedora 34" when a new release comes out).
+. Reusing content such a banner or an infobox (`[NOTE]`, etc.) that appears on multiple pages and needs to have consistent content everywhere (such as a message on some of the quick-docs that warns the reader about their unreviewed status).
+
+In these cases, you can use a partial to include the same content in multiple places, and you only need to change it once to get the change to appear in every spot it's included in. You can see the first example used in `pages/index.adoc` in this repository; note the include statement on top.
+
+If you want to include this particular example somewhere, you can use the following syntax: `include::partial$partial-example.adoc[]`.
+Note the use of `partial$` instead of an actual file location.
+
+See link:https://docs.antora.org/antora/3.0/partials-directory/[Antora docs on partials] for more information about partials.

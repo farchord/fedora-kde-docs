@@ -1,0 +1,9 @@
+This is an example of a example file. Unlike files in `pages/`, files in this directory are not built as standalone pages, but only if they are included in a file within `pages/`. Also unlike examples,
+A file in this directory can be included within any file in the `pages/` directory.
+
+Most common use cases for examples is using output from an external script (for example, translation string statistics) in docs. You can use an external script to update the example, and when the site is rebuilt, it will show updated output.
+
+If you want to include this particular example somewhere, you can use the following syntax: `include::example$example-example.adoc[]`.
+Note the use of `example$` instead of an actual file location.
+
+See link:https://docs.antora.org/antora/3.0/examples-directory/[Antora docs on examples] for more information about partials.

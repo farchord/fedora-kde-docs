@@ -1,0 +1,3 @@
+= Pizza Oven Architecture
+
+Pizza oven architecture would be described on this page. Since this is just a template, I choose to disappoint you and not describe the pizza oven architecture.
