@@ -1,6 +1,6 @@
 site:
   title: Local Preview
-  start_page: pizza-factory::index.adoc
+  start_page: fedora-kde::index.adoc
 content:
   sources:
    - url: .

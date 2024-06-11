@@ -1,0 +1,74 @@
+= Getting KDE on Fedora
+
+Get the KDE Plasma Desktop spin
+https://fedoraproject.org/spins/kde/[here]. Alternatively,
+https://fedoraproject.org/atomic-desktops/kinoite/[Fedora Kinoite] is
+also available as the atomic equivalent of Fedora KDE.
+
+
+[NOTE]
+
+====
+The KDE spin and Kinoite are the only recommended ways to use KDE Plasma on Fedora.
+====
+
+Otherwise, if you have an existing installation of Fedora Workstation,
+any other Fedora spin, or a non-Kinoite variant of Fedora Atomic Desktop
+and wish to keep that installation, follow the instructions below.
+
+[[installing_kde_plasma_on_non_kde_variants_of_fedora]]
+== Installing KDE Plasma on non-KDE variants of Fedora
+
+[[on_regular_fedora]]
+===== On regular Fedora
+
+To install Plasma using the command line with dnf, execute the following
+with `+sudo+` or as root:
+
+`+dnf install @kde-desktop-environment+`
+
+Or to install the full package set with the `+groupinstall+` command:
+
+`+dnf groupinstall "KDE Plasma Workspaces"+`
+
+[[on_fedora_atomic]]
+===== On Fedora Atomic
+
+You can rebase any existing Fedora Atomic Desktop (Silverblue, Atomic
+Sway, etc) installation to Kinoite with rpm-ostree by simply running
+
+`+rpm-ostree rebase fedora:fedora/VersionNumber/x86_64/kinoite+`
+
+Replace VersionNumber with the number of the current Fedora release
+you're running. (For example, if you're on Fedora Silverblue 40, you
+would run `+rpm-ostree rebase fedora:fedora/40/x86_64/kinoite+`.)
+
+[NOTE]
+
+====
+Rebasing to Kinoite gives you a complete setup, with SDDM pre-configured and all. All you need to do is simply reboot after rebasing.
+====
+
+[[logging_into_kde_plasma]]
+== Logging into KDE Plasma
+
+After installing the packages, either log out or reboot back to your
+login screen.
+
+If you're using GDM (GNOME's Display Manager), click on the gear at the
+bottom right of the screen, and select the option listed as Plasma.
+
+If you're using LightDM (default on the Fedora Cinnamon, Budgie, XFCE,
+LXDE and MATE-Compiz spins), select the button next to your username and
+select Plasma.
+
+[[switching_the_display_manager_to_sddm]]
+== Switching the display manager to SDDM
+
+You may want to switch your existing display manager (also known as a
+login manager) to SDDM, recommended by the Plasma team (but not
+developed by the KDE community). This has little impact on the end-user
+experience and isn't necessary in order to use Plasma.
+
+To enable SDDM / replace your existing display manager, run the
+`+systemctl enable --force sddm.service+` command.

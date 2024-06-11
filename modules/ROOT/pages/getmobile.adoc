@@ -1,0 +1,35 @@
+=== Installation
+
+[NOTE]
+
+====
+THIS PAGE IS A PLACEHOLDER, SIMPLY LIFTED FROM https://fedoraproject.org/wiki/SIGs/KDE/Mobile
+====
+
+[[install_packages]]
+==== Install Packages
+
+* dnf group install kde-mobile -y
+* (Optional: tablet) dnf group install kde-mobile-apps -y
+* (Optional: phone) dnf group install kde-mobile-apps --with-optional -y
+* (Optional) dnf install fedora-release-kde fedora-release-identity-kde
+--allowerasing -y
+
+[[enable_graphical_mode]]
+==== Enable Graphical Mode
+
+If the machine you started with did not boot into graphical mode, set it
+so it does
+
+* systemctl set-default graphical.target
+
+[[set_sddm_as_default]]
+==== Set sddm as default
+
+* systemctl enable sddm -f
+
+==== Reboot
+
+* reboot
+
+

@@ -1,0 +1,16 @@
+[[kde_plasma_mobile]]
+== Fedora KDE Plasma Mobile
+
+[NOTE]
+
+====
+THIS PAGE IS A PLACEHOLDER, SIMPLY LIFTED FROM https://fedoraproject.org/wiki/SIGs/KDE/Mobile AND PLASMA MOBILE BLOG
+====
+
+Fedora KDE Plasma Mobile is Fedora's implementation of
+https://plasma-mobile.org/[Plasma Mobile] Most of the
+https://plasma-mobile.org/apps/[Plasma Mobile Apps] are available in
+Fedora.
+
+.plasmamobileplacerholder.png
+image::plasmamobileplacerholder.png[plasmamobileplacerholder,title="Screenshot of KDE Plasma Mobile (taken from https://plasma-mobile.org/2024/03/01/plasma-6/, replace later please!)"]
