@@ -1,0 +1,21 @@
+= Plasma Desktop
+
+https://www.kde.org/plasma-desktop/[KDE Plasma] provides a modern and
+customizable environment for running your favourite applications and
+accessing your information wherever it may be. It is available in Fedora
+as a https://fedoraproject.org/spins/kde/[spin] and as an alternative to
+the default desktop offering (GNOME) or other desktop environments and
+window managers.
+
+.Kde-plasma-screenshot.png
+image::Kde-plasma-screenshot.png[Kde-plasma-screenshot,title="Screenshot of the KDE Plasma Desktop on Fedora",width=800]
+
+== Links
+
+* https://www.kde.org/ - Home of the KDE community
+* https://www.kde.org/plasma-desktop/ - The Plasma Desktop
+* https://userbase.kde.org/Tutorials - KDE-related tutorials
+* https://community.kde.org/Main_Page - KDE Community Wiki
+
+
+Category:KDE
