@@ -10,4 +10,4 @@ Offline updates are the default on Fedora KDE, because they increase stability. 
 
 To deactivate offline updates, open System Settings and go to System → Software Update and set Apply system updates to Immediately.
 
-image::settings_offlineupdates.png
+image::settings_offlineupdates.png[]
