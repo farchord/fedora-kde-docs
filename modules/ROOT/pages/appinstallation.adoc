@@ -34,7 +34,7 @@ image::discover_appperm.png[Reviews, external links and permissions on the app p
 
 image::discover_updates.png[The updates page]
 
-This is your central place to install updates for applications and the system. You will get notified, whenever an update is available. Clicking on individual entries shows you what’s new. System updates require a restart by default.
+This is your central place to install updates for applications and the system. You will get notified, whenever an update is available. Clicking on individual entries shows you what’s new. System updates require a restart by default. xref:offlineupdates.adoc[Read more about this and how to deactivate it.]
 
 ==== Settings
 
