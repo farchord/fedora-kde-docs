@@ -1,0 +1,13 @@
+= Offline Updates
+
+Offline updates are updates which are installed during a reboot or shutdown. On Fedora KDE, this is the default for system updates installed through Discover.
+
+=== Why are offline updates the default?
+
+Offline updates are the default on Fedora KDE, because they increase stability. During a system update, important components of currently running apps can get replaced with newer versions. This may lead to those applications causing weird behavior or even crashing in worst cases. To avoid this, system updates require a reboot on Fedora KDE.
+
+=== How to deactivate offline updates?
+
+To deactivate offline updates, open System Settings and go to System → Software Update and set Apply system updates to Immediately.
+
+image::settings_offlineupdates.png
