@@ -28,7 +28,7 @@ image::discover_appinfo.png[The app details page for VLC in Discover]
 
 If you click on a desired app, Discover will show you more details about it. It displays information such as version, size and license, as well as screenshots, ratings and app permissions (only for Flatpaks). In the top right corner you can select the source/repository to download the app from (for example Fedora repository, Flathub, …).
 
-image::discover_appperm.png[Reviews, external links and permissions on the app page]
+image::discover_appperm.png["Reviews, external links and permissions on the app page"]
 
 ==== Updates
 
