@@ -4,25 +4,25 @@ In KDE Plasma desktop, Discover helps you explore, install and update applicatio
 
 You will find the Discover application in the System category of the start menu.
 
-=== Homepage
+==== Homepage
 
 image::discover_main.png[Homepage of Discover]
 
 The homepage is the place where you’ll land after opening Discover. From here you can start exploring apps.
 
-=== Search
+==== Search
 
 image::discover_search.png[Searching for apps with Discover]
 
 If you know the name of apps to install, type in the name of apps in the search window on the top left corner and press Enter. Discover will suggest a set of applications that matches your search.
 
-=== App categories
+==== App categories
 
 image::discover_categories.png[Explore apps by category]
 
 Discover groups apps into categories. If you are looking for an app for a certain purpose, such as office work, this is your place to start.
 
-=== App details
+==== App details
 
 image::discover_appinfo.png[The app details page for VLC in Discover]
 
@@ -30,19 +30,19 @@ If you click on a desired app, Discover will show you more details about it. It 
 
 image::discover_appperm.png[Reviews, external links and permissions on the app page]
 
-=== Updates
+==== Updates
 
 image::discover_updates.png[The updates page]
 
 This is your central place to install updates for applications and the system. You will get notified, whenever an update is available. Clicking on individual entries shows you what’s new. System updates require a restart by default.
 
-=== Settings
+==== Settings
 
 image::discover_settings.png[Manage software sources/repositories]
 
 The settings page lets you manage available software sources/repositories to install apps from. This is the place where you can activate the RPM Fusion repositories and the Snap Store, if not already done.
 
-=== Installed Applications
+==== Installed Applications
 
 image::discover_installed.png[Manage all your installed apps]
 
