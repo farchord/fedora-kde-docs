@@ -5,7 +5,7 @@
 name: fedora-kde  # <---- modified! :)
 
 # Title will be visible on the page.
-title: Fedora KDE Plasma Edition # Modified! x2 :)
+title: Fedora KDE Plasma Desktop Edition # Modified! x2 :)
 
 # If you don't plan to have multiple versions of the docs (for example, to
 # document multiple versions of some software), you can ignore this field.
