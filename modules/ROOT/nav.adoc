@@ -2,3 +2,5 @@
 * xref:getkde.adoc[Getting KDE Plasma on Fedora]
 * xref:plasmamobile.adoc[Plasma Mobile]
 * xref:getmobile.adoc[Getting Plasma Mobile on Fedora]
+* xref:appinstallation.adoc[Installing Applications and Updates with Discover]
+* xref:offlineupdates.adoc[Offline Updates]
