@@ -4,7 +4,7 @@ Offline updates are updates which are installed during a reboot or shutdown. On 
 
 === Why are offline updates the default?
 
-Offline updates are the default on Fedora KDE, because they increase stability. During a system update, important components of currently running apps can get replaced with newer versions. This may lead to those applications causing weird behavior or even crashing in worst cases. To avoid this, system updates require a reboot on Fedora KDE.
+Offline updates are the default on Fedora KDE, because they increase stability. During a system update, important components of apps can get replaced with newer versions. Installing system updates while Fedora is up and running may lead to those applications causing weird behavior or even crashing in worst cases. To avoid this, system updates require a reboot by default on Fedora KDE.
 
 === How to deactivate offline updates?
 
