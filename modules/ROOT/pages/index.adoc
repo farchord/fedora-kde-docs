@@ -2,4 +2,6 @@ include::partial$attributes.adoc[]
 
 = Fedora KDE Desktop Edition
 
-(Placeholder page -- replace with a proper main page later)
+Welcome to the Fedora KDE Documentation!
+
+If you need any help, please visit our Matrix channel by clicking https://matrix.to/#/#kde:fedoraproject.org[here] or visit #kde:fedoraproject.org on the Fedora Matrix server.
